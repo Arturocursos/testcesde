@@ -1,0 +1,69 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>AddCourse</servlet-name>
+        <servlet-class>servlets.AddCourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCourse</servlet-name>
+        <url-pattern>/addCourse</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditCourse</servlet-name>
+        <servlet-class>servlets.EditCourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditCourse</servlet-name>
+        <url-pattern>/editCourse</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteCourse</servlet-name>
+        <servlet-class>servlets.DeleteCourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCourse</servlet-name>
+        <url-pattern>/deleteCourse</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewCourses</servlet-name>
+        <servlet-class>servlets.ViewCoursesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewCourses</servlet-name>
+        <url-pattern>/viewCourses</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddTeacher</servlet-name>
+        <servlet-class>servlets.AddTeacherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddTeacher</servlet-name>
+        <url-pattern>/addTeacher</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditTeacher</servlet-name>
+        <servlet-class>servlets.EditTeacherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditTeacher</servlet-name>
+        <url-pattern>/editTeacher</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewTeachers</servlet-name>
+        <servlet-class>servlets.ViewTeachersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewTeachers</servlet-name>
+        <url-pattern>/viewTeachers</url-pattern>
+    </servlet-mapping>
+</web-app>
