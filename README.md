@@ -1,6 +1,6 @@
 # Gestión de Cursos Cesde
 
-Este proyecto es una aplicación web para gestionar la información de los cursos ofrecidos por Cesde. Permite a los administradores agregar, editar y eliminar cursos, así como mostrar una lista de todos los cursos disponibles. También permite administrar los docentes que dictarán cada curso.
+Este proyecto es una aplicación web para gestionar la información de los cursos ofrecidos por Cesde. puedes accesder al sitio web diseñado desde https://arturocursos.com/testcesde/, Permite a los administradores agregar, editar y eliminar cursos, así como mostrar una lista de todos los cursos disponibles. También permite administrar los docentes que dictarán cada curso.
 
 ## Características
 
