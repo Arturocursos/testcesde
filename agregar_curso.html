@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Curso - CESDE</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Agregar Curso</h1>
+        <nav>
+            <a href="ver_cursos.html">Ver Cursos</a>
+            <a href="ver_docentes.html">Ver Docentes</a>
+            <a href="agregar_curso.html">Agregar Curso</a>
+            <a href="agregar_docente.html">Agregar Docente</a>
+        </nav>
+    </header>
+    <main>
+        <form id="cursoForm">
+            <label for="nombre">Nombre del Curso:</label>
+            <input type="text" id="nombre" required>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" required></textarea>
+            <label for="duracion">Duración (semanas):</label>
+            <input type="number" id="duracion" required>
+            <label for="precio">Precio:</label>
+            <input type="number" id="precio" step="0.01" required>
+            <label for="fecha">Fecha de Inicio:</label>
+            <input type="datetime-local" id="fecha" required>
+            <label for="docente">Docente:</label>
+            <input type="text" id="docente" required>
+            <button type="submit">Agregar Curso</button>
+        </form>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
